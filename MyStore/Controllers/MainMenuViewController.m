@@ -49,6 +49,7 @@ static NSString * const kReuseIdentifier = @"Cell";
                    [[ROItemCell alloc] initWithText1:@"Custom detail"
                                             atAction:[[RONavigationAction alloc] initWithRootViewController:rootViewController destinationValue:[CustomdetailViewController class]]]
                   ];
+    //TODO: Make some changes
 
     self.tableView.dataSource = self;
     self.tableView.delegate = self;
