@@ -45,6 +45,7 @@ static NSString * const kReuseIdentifier = @"Cell";
                    [[ROItemCell alloc] initWithText1:@"Store Catalog"
                                             atAction:[[RONavigationAction alloc] initWithRootViewController:rootViewController destinationValue:[StoreCatalogScreen1ViewController class]]]
                   ];
+    //TODO: Make some changes
 
     self.tableView.dataSource = self;
     self.tableView.delegate = self;
