@@ -1,0 +1,14 @@
+//
+//  PrefixHeader.h
+//  MyStore
+//
+//  This App has been generated using IBM Mobile App Builder
+//
+
+#ifndef MyStore_PrefixHeader_pch
+#define MyStore_PrefixHeader_pch
+
+#import <UIKit/UIKit.h>
+#import <Foundation/Foundation.h>
+
+#endif
