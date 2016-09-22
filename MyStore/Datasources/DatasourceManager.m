@@ -8,6 +8,7 @@
 #import "DatasourceManager.h"
 #import "ProductsDS.h"
 #import "ContactScreen1DS.h"
+#import "EmptyDatasource.h"
 
 @implementation DatasourceManager
 
@@ -40,6 +41,15 @@
         _contactScreen1DS = [ContactScreen1DS new];
     }
     return _contactScreen1DS;
+}
+
+- (EmptyDatasource *)emptyDatasource {
+
+    if (!_emptyDatasource) {
+
+        _emptyDatasource = [EmptyDatasource new];
+    }
+    return _emptyDatasource;
 }
 
 #pragma mark - Public methods

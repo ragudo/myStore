@@ -9,12 +9,15 @@
 
 @class ProductsDS;
 @class ContactScreen1DS;
+@class EmptyDatasource;
 
 @interface DatasourceManager : NSObject
 
 @property (nonatomic, strong) ProductsDS *productsDS;
 
 @property (nonatomic, strong) ContactScreen1DS *contactScreen1DS;
+
+@property (nonatomic, strong) EmptyDatasource *emptyDatasource;
 
 /**
  Singleton

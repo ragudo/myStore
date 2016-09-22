@@ -5,6 +5,7 @@
 //  This App has been generated using IBM Mobile App Builder
 //
 
+#import "CustomdetailViewController.h"
 #import "StoreCatalogScreen1ViewController.h"
 #import "UIViewController+ECSlidingViewController.h"
 #import "RONavigationAction.h"
@@ -43,7 +44,10 @@ static NSString * const kReuseIdentifier = @"Cell";
     self.items = @[
                    
                    [[ROItemCell alloc] initWithText1:@"Store Catalog"
-                                            atAction:[[RONavigationAction alloc] initWithRootViewController:rootViewController destinationValue:[StoreCatalogScreen1ViewController class]]]
+                                            atAction:[[RONavigationAction alloc] initWithRootViewController:rootViewController destinationValue:[StoreCatalogScreen1ViewController class]]],
+                   
+                   [[ROItemCell alloc] initWithText1:@"Custom detail"
+                                            atAction:[[RONavigationAction alloc] initWithRootViewController:rootViewController destinationValue:[CustomdetailViewController class]]]
                   ];
 
     self.tableView.dataSource = self;
